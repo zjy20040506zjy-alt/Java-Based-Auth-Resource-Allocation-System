@@ -1,29 +1,50 @@
 # Java-Based Auth & Resource Allocation System
-A secure, modular Java system for user authentication, role-based access control, and dynamic resource lifecycle management.
+A secure, modular Java system for user authentication, role-based access control, and dynamic resource scheduling.
 
 ## Project Overview
-This project is a highly available user authentication and resource allocation system constructed based on layered architecture and object-oriented programming principles. Implemented with a hotel reservation scenario, it integrates core functions including identity authentication, fine-grained resource lifecycle management, dynamic pricing strategies, and multi-role permission control.
+This project targets multi-role permission control scenarios, implementing user identity authentication, dynamic permission assignment, and resource scheduling execution based on Java and OOP principles.
 
-With modular design and loose-coupled structure, the system features high scalability, maintainability, and security, and can be flexibly adapted to various resource allocation scenarios such as equipment scheduling, venue reservation, and service management.
+It adopts a modular and loosely coupled architecture, with a console-based interactive interface. The system covers the full business workflow:
+**User Registration & Authentication → Resource Query & Allocation → Dynamic Permission Adjustment → Administrator Operation & Maintenance**
 
-## Core Values
-- Solves industry pain points including chaotic permission management, low resource utilization, and inflexible pricing mechanisms.
-- Implements decoupling between roles and resources through OOP characteristics: encapsulation, inheritance, and polymorphism.
-- Supports commercial expansion with built-in dynamic pricing algorithm and real-time resource status tracking.
-- Ensures system robustness and stability through complete input validation and exception handling mechanisms.
+Integrated with input validation, exception handling, and data state synchronization mechanisms, it ensures stable and reliable system operation.
+
+## Core Features
+- Multi-role user authentication and authorization
+- Centralized resource pool management and dynamic allocation
+- Fine-grained permission verification and access control
+- Full lifecycle management of users and resources
+- Administrator-oriented operation audit and O&M capabilities
+- High robustness with complete exception handling and data consistency guarantees
+
+## Technical Highlights
+- Pure Java implementation, no third-party framework dependencies
+- Standard OOP design: encapsulation, inheritance, polymorphism
+- Layered and modular architecture for high scalability
+- Console interaction with clear business logic
+- Complete error handling and input validation mechanisms
 
 ---
 
 # 基于 Java 的用户鉴权与资源分配执行系统
-一套安全、模块化的 Java 身份认证与资源动态管理系统。
+面向多角色权限管控场景，基于 Java 实现用户身份认证、动态权限分配与资源调度执行系统。
 
 ## 项目概述
-本项目基于分层架构与面向对象思想设计，实现了高可用的用户鉴权与资源分配执行体系。以酒店客房预订为业务载体，系统集成用户身份认证、精细化资源生命周期管理、动态定价策略、多角色权限管控等核心能力。
+本项目遵循 OOP 设计原则，构建用户管理、资源池维护、权限校验、操作审计等核心模块；采用控制台交互模式，完成**用户注册鉴权 — 资源查询分配 — 权限动态调整 — 管理员运维管控**全链路功能。
 
-系统采用模块化、低耦合设计，具备优秀的可扩展性与可维护性，可无缝适配设备调度、场地预约、服务分发等各类资源分配场景。
+系统集成输入合法性校验、异常捕获处理、数据状态同步等健壮性机制，保障稳定可靠运行，可适配设备调度、场地预约、服务分发等多种资源管理场景。
 
-## 核心价值
-- 解决权限管理混乱、资源利用率低、定价策略僵化等行业痛点。
-- 基于面向对象的封装、继承、多态特性，实现角色与资源的解耦设计。
-- 内置动态定价算法与资源状态实时追踪，支持商业化场景灵活扩展。
-- 提供完善的输入校验与异常处理机制，保障系统高鲁棒性与稳定性。
+## 核心功能
+- 多角色用户注册、登录与身份鉴权
+- 资源池统一管理与动态分配调度
+- 细粒度权限校验与访问控制
+- 用户与资源全生命周期管理
+- 管理员操作审计与运维管控
+- 高鲁棒性异常处理与数据同步
+
+## 技术特点
+- 纯 Java 实现，无第三方框架依赖
+- 面向对象设计，结构清晰、易于扩展
+- 模块化分层架构，职责明确、耦合度低
+- 控制台交互，流程简洁、体验流畅
+- 完善校验与异常处理，保障系统稳定
